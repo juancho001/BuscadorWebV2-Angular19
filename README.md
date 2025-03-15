@@ -39,5 +39,6 @@ For more information on using the Angular CLI, including detailed command refere
 ```bash
 1. Creación del nuevo Proyecto
 2. Instalando Tailwind CSS
+3. Creando los componentes y las Rutas para el Menú lateral
 ```
 
