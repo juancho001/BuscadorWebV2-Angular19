@@ -8,6 +8,6 @@ import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 })
 export class GifsListItemsComponent {
 
-  imageUrl = input.required<string>();
+  imageUrl = input.required<String>();
 
  }

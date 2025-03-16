@@ -42,5 +42,6 @@ For more information on using the Angular CLI, including detailed command refere
 3. Creando los componentes y las Rutas para el Menú lateral
 4. Environments y Path Alias
 5. Creando y configurando los componentes para mostrar las imagenes
+6. Trabajando en el Servicio Api para cargar las Imagenes Dinamicamente mediante los servicios de HTTP
 ```
 
