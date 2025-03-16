@@ -44,5 +44,6 @@ For more information on using the Angular CLI, including detailed command refere
 5. Creando y configurando los componentes para mostrar las imagenes
 6. Trabajando en el Servicio Api para cargar las Imagenes Dinamicamente mediante los servicios de HTTP en el modulo de Trending
 7. Trabando en el modulo de Searchs para realizar las busquedas de las imagenes dinamicamente
+8. Trabajando con el Historial y Cache de Busqueda en el modulo de Search
 ```
 
