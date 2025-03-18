@@ -16,7 +16,7 @@ export default class SearchPageComponent {
 
   onSearch(serach:string){
     this.gifServiceSarch.searchGifs(serach).subscribe( response => {
-      this.gifSearch.set(response);
+    this.gifSearch.set(response);
     });
   }
  }

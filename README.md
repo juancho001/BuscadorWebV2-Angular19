@@ -46,5 +46,6 @@ For more information on using the Angular CLI, including detailed command refere
 7. Trabando en el modulo de Searchs para realizar las busquedas de las imagenes dinamicamente
 8. Trabajando con el Historial y Cache de Busqueda en el modulo de Search
 9. Pase de Argumentos dinamicos por URL, ( Mostrando el historial de busquedas )
+10. LocalStorage Manteniendo el Historial de busqueda
 ```
 
