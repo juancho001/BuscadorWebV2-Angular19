@@ -12,7 +12,13 @@ export const routes: Routes = [
       {
         path:'search',
         loadComponent: () => import ('./gifs/pages/search-page/search-page.component'),
-      },
+      }
+      ,
+      {
+        path:'history/:query',
+        loadComponent: () => import ('./gifs/pages/gifs-history-page/gifs-history-page.component'),
+      }
+      ,
       {
         path:'**',
         redirectTo:'trending'

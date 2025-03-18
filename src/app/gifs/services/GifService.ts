@@ -15,9 +15,10 @@ export class GifService {
   trendingGifs = signal<Gif[]>([])
   trendingGifSearch = signal<Gif[]>([])
   trendingGifsLoading = signal(true);
-
   searchHistory = signal<Record<string,Gif[]>>({});
   searchHistoryKey = computed(() => Object.keys(this.searchHistory()));
+
+
   constructor() {
     this.loadTrendingImage();
    }
@@ -62,6 +63,12 @@ export class GifService {
     //   this.trendingGifSearch.set(gifSerach);
     //   console.log({gifSerach})
     // })
+  }
+
+
+  getHistoryGifs(query:string): Gif[]{
+
+    return  this.searchHistory()[query] ?? [];
   }
 
 }
