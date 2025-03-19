@@ -20,7 +20,7 @@ export default class GifsHistoryPageComponent {
   gifsService = inject(GifService);
 
   query = toSignal(
-    inject(ActivatedRoute).params.pipe(map((params)=> params['query']))
+    inject(ActivatedRoute).params.pipe(map((params) => params['query']))
   );
 
   gifsByKey = computed(

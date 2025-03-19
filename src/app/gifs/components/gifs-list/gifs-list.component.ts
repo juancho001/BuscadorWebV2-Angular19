@@ -10,6 +10,6 @@ import { Gif } from '../../interfaces/gif.interface';
 })
 export class GifsListComponent {
 
-    gifs = input.required<Gif[]>();
+  gifs = input.required<Gif[]>();
 
- }
+}

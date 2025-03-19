@@ -34,7 +34,7 @@ This will compile your project and store the build artifacts in the `dist/` dire
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 
 
-# Content Tables
+# Table of Content
 
 ```bash
 1. Creación del nuevo Proyecto
@@ -49,4 +49,11 @@ For more information on using the Angular CLI, including detailed command refere
 10. LocalStorage Manteniendo el Historial de busqueda
 11. Implementando un Diseño Masonry a nuestras vistas, y añadiendo un scroll infinito preservando la posicion del scroll
 ```
+
+# Table of Content
+1. https://tailwindcss.com/docs/installation/framework-guides/angular
+2. https://flowbite.com/docs/components/gallery/
+3. https://fontawesome.com/search?o=r&ic=free&s=solid&ip=classic
+4. https://developers.giphy.com/
+
 

@@ -1,7 +1,7 @@
 <div id="nav" class="w-full px-6">
   @for (item of menuOptions; track item.route) {
   <!-- bg-blue-800 -->
-  <a [routerLink] = "item.route" routerLinkActive="bg-blue-800"
+  <a [routerLink]="item.route" routerLinkActive="bg-blue-800"
     class="w-full px-2 inline-flex space-x-2 items-center border-b border-slate-700 py-3  hover:bg-white/5 transition ease-linear duration-150">
     <div>
       <!-- <i class="{{item.icon}}"></i> -->
@@ -16,11 +16,11 @@
 
 
   <h3 class="m-2 p-2 text-center">Last Searh</h3>
-<hr>
+  <hr>
 
-@for (key of lastSearch.searchHistoryKey(); track key) {
+  @for (key of lastSearch.searchHistoryKey(); track key) {
   <!-- bg-blue-800 -->
-  <a [routerLink] = "['/dashboard/history',key]" routerLinkActive="bg-blue-800"
+  <a [routerLink]="['/dashboard/history',key]" routerLinkActive="bg-blue-800"
     class="w-full px-2 inline-flex space-x-2 items-center border-b border-slate-700 py-3  hover:bg-white/5 transition ease-linear duration-150">
     <div>
       <!-- <i class="{{item.icon}}"></i> -->
@@ -31,7 +31,7 @@
     </div>
   </a>
 
-}
+  }
 
 
 </div>

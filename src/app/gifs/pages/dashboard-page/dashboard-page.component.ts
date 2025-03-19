@@ -4,8 +4,8 @@ import { SideMenuComponent } from "../../components/side-menu/side-menu.componen
 
 @Component({
   selector: 'app-dashboard-page',
-  imports: [RouterOutlet,SideMenuComponent],
+  imports: [RouterOutlet, SideMenuComponent],
   templateUrl: './dashboard-page.component.html',
- // changeDetection: ChangeDetectionStrategy.OnPush,
+  // changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export default class DashboardPageComponent { }

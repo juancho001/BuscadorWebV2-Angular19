@@ -5,7 +5,7 @@ import { environment } from '@environments/environment';
   selector: 'gifs-side-menu-header',
   imports: [],
   templateUrl: './side-menu-header.component.html',
- // changeDetection: ChangeDetectionStrategy.OnPush,
+  // changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class SideMenuHeaderComponent {
   envs = environment;

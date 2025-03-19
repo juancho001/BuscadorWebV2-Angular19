@@ -1,4 +1,4 @@
-name: BuscadorWebV2-CI
+name: BuscadorWeb V2-CI
 
 # Controls when the workflow will run
 on:
@@ -22,7 +22,7 @@ jobs:
       # Install NodeJs
       - name: Septup NodeJs
         uses: actions/setup-node@v4.2.0
-        with: 
+        with:
           node-version: "v22.13.0"
       # Install Dependencies
       - name: Install Deps
@@ -34,6 +34,6 @@ jobs:
       - name: Deploy to Pages
         uses: crazy-max/ghaction-github-pages@v4.1.0
         with:
-          build_dir: dist/
+          build_dir: dist/BuscadorWebV2-Angular19/beowser/
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

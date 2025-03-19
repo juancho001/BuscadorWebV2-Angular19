@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod":"ng build --configuration production --base-href /BuscadorWebV2-Angular19/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

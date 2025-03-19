@@ -14,9 +14,9 @@ export default class SearchPageComponent {
   gifServiceSarch = inject(GifService);
   gifSearch = signal<Gif[]>([]);
 
-  onSearch(serach:string){
-    this.gifServiceSarch.searchGifs(serach).subscribe( response => {
-    this.gifSearch.set(response);
+  onSearch(serach: string) {
+    this.gifServiceSarch.searchGifs(serach).subscribe(response => {
+      this.gifSearch.set(response);
     });
   }
- }
+}

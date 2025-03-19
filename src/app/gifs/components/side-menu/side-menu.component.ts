@@ -4,7 +4,7 @@ import { SideMenuOptionsComponent } from './side-menu-options/side-menu-options.
 
 @Component({
   selector: 'gifs-side-menu',
-  imports: [SideMenuHeaderComponent,SideMenuOptionsComponent],
+  imports: [SideMenuHeaderComponent, SideMenuOptionsComponent],
   templateUrl: './side-menu.component.html',
   //changeDetection: ChangeDetectionStrategy.OnPush,
 })
