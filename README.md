@@ -47,5 +47,6 @@ For more information on using the Angular CLI, including detailed command refere
 8. Trabajando con el Historial y Cache de Busqueda en el modulo de Search
 9. Pase de Argumentos dinamicos por URL, ( Mostrando el historial de busquedas )
 10. LocalStorage Manteniendo el Historial de busqueda
+11. Implementando un Diseño Masonry a nuestras vistas, y añadiendo un scroll infinito preservando la posicion del scroll
 ```
 
